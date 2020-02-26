@@ -11,10 +11,10 @@
       <pays>France</pays>
       <ville>Mulhouse</ville>
     </adresse>  
-    <telephone>
+    <tel>
       <telephone type="fixe">04 95 48 59 10</telephone>
       <telephone type="portable">06 66 66 66 66<telephone>
-    </telephone>
+    </tel>
     <mail>Storrenti@arfp.asso.fr</mail>
 
   <personne>Joanna</personne>
@@ -28,9 +28,9 @@
       <pays>France</pays>
       <ville>Mulhouse</ville>
     </adresse>  
-    <telephone>
+    <tel>
       <telephone type="fixe">04 95 54 26 18</telephone>
       <telephone type="portable">06 99 66 77 66<telephone>
-    </telephone>
+    </tel>
     <mail>Jschmitt@arfp.asso.fr</mail>
 </repertoire>
