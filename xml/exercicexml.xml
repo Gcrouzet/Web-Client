@@ -6,15 +6,15 @@
     <nom>Torrenti</nom>
     <prenom>Sylvain</prenom>
     <adresse>
-      <adresse>36 chemin du petit pont</adresse>
+      <voie>36 chemin du petit pont</voie>
       <codePostal>68200</codePostal>
       <pays>France</pays>
       <ville>Mulhouse</ville>
     </adresse>  
-    <tel>
+    <telephones>
       <telephone type="fixe">04 95 48 59 10</telephone>
-      <telephone type="portable">06 66 66 66 66<telephone>
-    </tel>
+      <telephone type="portable">06 66 66 66 66</telephone>
+    </telephones>
     <mail>Storrenti@arfp.asso.fr</mail>
 
   <personne>Joanna</personne>
@@ -23,14 +23,14 @@
     <nom>Schmitt</nom>
     <prenom>Joanna</prenom>
     <adresse>
-      <adresse>36 chemin du petit pont</adresse>
+      <voie>36 chemin du petit pont</voie>
       <codePostal>68200</codePostal>
       <pays>France</pays>
       <ville>Mulhouse</ville>
     </adresse>  
-    <tel>
+    <telephones>
       <telephone type="fixe">04 95 54 26 18</telephone>
-      <telephone type="portable">06 99 66 77 66<telephone>
-    </tel>
+      <telephone type="portable">06 99 66 77 66</telephone>
+    </telephones>
     <mail>Jschmitt@arfp.asso.fr</mail>
 </repertoire>
