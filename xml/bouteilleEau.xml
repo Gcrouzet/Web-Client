@@ -22,45 +22,45 @@
         <default etat="sale">fer en suspension</default>
     </cristaline>
     <cristaline>
-            <preleve>
-                <departement>Alpes Maritimes</departement>
-                <lieu>Aurele</lieu>
-            </preleve>
-            <bouteille>
-                <volume unité_mesure="cl">50</volume>
-                <contenant>eau</contenant>
-            </bouteille>
-            <ion_positif>
-                <calcium mesure="mg/l">98</calcium>
-                <magnesium mesure="mg/l">4</magnesium>
-            </ion_positif>
-            <ion_negatif>
-                <chlorure mesure="mg/l">3.6</chlorure>
-                <nitrate mesure="mg/l">2</nitrate>
-            </ion_negatif>
-            <pH>7.4</pH>
-            <code_barre>3268840001008</code_barre>
-            
+        <preleve>
+            <departement>Alpes Maritimes</departement>
+            <lieu>Aurèle</lieu>
+        </preleve>
+        <bouteille>
+            <volume unité_mesure="cl">50</volume>
+            <contenant>eau</contenant>
+        </bouteille>
+        <ion_positif>
+            <calcium mesure="mg/l">98</calcium>
+            <magnesium mesure="mg/l">4</magnesium>
+        </ion_positif>
+        <ion_negatif>
+            <chlorure mesure="mg/l">3.6</chlorure>
+            <nitrate mesure="mg/l">2</nitrate>
+        </ion_negatif>
+        <pH>7.4</pH>
+        <code_barre>3268840001008</code_barre>
+
     </cristaline>
     <volvic>
-            <preleve>
-                <departement>Puy-de-Dôme</departement>
-                <lieu>Volvic</lieu>
-            </preleve>
-            <bouteille>
-                <volume unité_mesure="cl">50</volume>
-                <contenant>eau</contenant>
-            </bouteille>
-            <ion_positif>
-                <calcium mesure="mg/l">11.5</calcium>
-                <magnesium mesure="mg/l">8.0</magnesium>
-            </ion_positif>
-            <ion_negatif>
-                <chlorure mesure="mg/l">13.5</chlorure>
-                <nitrate mesure="mg/l">6.3</nitrate>
-            </ion_negatif>
-            <pH>7</pH>
-            <code_barre>3274080005003</code_barre>
-            <default >particulle de silice</default>
-        </volvic>
+        <preleve>
+            <departement>Puy-de-Dôme</departement>
+            <lieu>Volvic</lieu>
+        </preleve>
+        <bouteille>
+            <volume unité_mesure="cl">50</volume>
+            <contenant>eau</contenant>
+        </bouteille>
+        <ion_positif>
+            <calcium mesure="mg/l">11.5</calcium>
+            <magnesium mesure="mg/l">8.0</magnesium>
+        </ion_positif>
+        <ion_negatif>
+            <chlorure mesure="mg/l">13.5</chlorure>
+            <nitrate mesure="mg/l">6.3</nitrate>
+        </ion_negatif>
+        <pH>7</pH>
+        <code_barre>3274080005003</code_barre>
+        <default>particulle de silice</default>
+    </volvic>
 </bouteille_eau>
