@@ -7,7 +7,7 @@
         </preleve>
         <bouteille>
             <volume unité_mesure="cl">150</volume>
-            <contenant>eau</contenant>
+            <contenance>eau</contenance>
         </bouteille>
         <ion_positif>
             <calcium mesure="mg/l">71</calcium>
@@ -19,7 +19,7 @@
         </ion_negatif>
         <pH>7.45</pH>
         <code_barre>3274080005003</code_barre>
-        <default etat="sale">fer en suspension</default>
+        <defaut etat="sale">fer en suspension</defaut>
     </cristaline>
     <cristaline>
         <preleve>
@@ -28,7 +28,7 @@
         </preleve>
         <bouteille>
             <volume unité_mesure="cl">50</volume>
-            <contenant>eau</contenant>
+            <contenance>eau</contenance>
         </bouteille>
         <ion_positif>
             <calcium mesure="mg/l">98</calcium>
@@ -49,7 +49,7 @@
         </preleve>
         <bouteille>
             <volume unité_mesure="cl">50</volume>
-            <contenant>eau</contenant>
+            <contenance>eau</contenance>
         </bouteille>
         <ion_positif>
             <calcium mesure="mg/l">11.5</calcium>
@@ -61,6 +61,6 @@
         </ion_negatif>
         <pH>7</pH>
         <code_barre>3274080005003</code_barre>
-        <default>particulle de silice</default>
+        <defaut>particulle de silice</defaut>
     </volvic>
 </bouteille_eau>
