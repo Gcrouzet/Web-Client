@@ -1,0 +1,15 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1~p,h2~p,h3~p,h4~p,h5~p,h6~p{
+    color: red;
+}
+p+a{
+    color: silver;
+}
+section a{
+  background-color: springgreen;
+}
+section>p{
+    background-color: steelblue;
+}
