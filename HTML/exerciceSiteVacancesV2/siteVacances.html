@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet">
+    <title>Travel Agency</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Travel Agency<span style="color: orange;">.</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#main-image">Accueil</a></li>
+                    <li><a href="#section1">Destinations</a></li>
+                    <li><a href="#section2">Circuits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="clear"></div>
+    <section id="main-image">
+        <div>
+            <h2>ORGANISEZ VOTRE<br /><strong>VOYAGE SUR MESURE</strong></h2>
+            <button type="button" id="bouton">Par ici</button>
+        </div>
+    </section>
+    <section id="section1">
+        <table>
+            <tr>
+                <td><img src="./images/steps-icon-1.png" alt="icon 1" />
+                    <h4>PLANIFIER</h4>
+                    <p><small>Confiez-nous vos rêves d'évasion : en <br /> famille ou entre amis, nous trouverons
+                            la<br />formule qui comblera vos attentes.</small></p>
+                </td>
+                <td><img src="./images/steps-icon-2.png" alt="icon 1" style="margin-top: 12px;" />
+                    <h4>ORGANISER</h4>
+                    <p><small>Bénéficiez de l'expertise de nos spécialistes <br /> de chaque destination, ils vous
+                            <br />accompagnent dans la réalisation de votre<br /> voyages.</small></p>
+                </td>
+                <td><img src="./images/steps-icon-3.png" alt="icon 1" />
+                    <h4>VOYAGER</h4>
+                    <p><small>Nous nous chargeons d'assurer votre<br /> sécurité et de veiller à votre pleine
+                            sérénité<br /> tout au long de votre voyage.</small></p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="section2">
+        <div class="back">
+            <article id="article1" style="background-image: url('images/article-image-1.jpg')">
+
+                <div class="overlay">
+                    <h4>PARTEZ EN FAMILLE</h4>
+                    <p><small>Offrez le meilleur à ceux<br/> que vous aimez et <br/>partagez des moments
+                            <br/>fabuleux !</small></p>
+                    <button type="button" class="bouton2">Plus d'infos</button>
+
+                </div>
+
+            </article>
+            <article id="article2" style="background-image: url('images/article-image-2.jpg')">
+                <div class="overlay">
+                    <h4>ENVIE DE S'EVADER</h4>
+                    <p><small>Parfois un peu d'évasion<br/> serait le bienvenue et<br/> ferait le plus grand bien
+                            !</small></p>
+                    <button type="button" class="bouton2">Plus d'infos</button>
+                </div>
+            </article>
+            <div class="clear"></div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div>
+            <h3>CONTACTEZ-NOUS</h3>
+            <p class="contact"><small> Chez Travel Agency nous savons que voyager est une aventure humaine mais
+                    également un
+                    engagement
+                    financier important pour vous.<br /> C'est pourquoi nous mettons un point d'honneur à prendre en
+                    compte
+                    chacune de vos attentes pour vous aider dans la répartition de votre<br /> séjour, circuit ou
+                    voyage sur
+                    mesure.</small></p>
+            <form action="traitement.php" method="POST">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" placeholder=" Votre nom" />
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder=" Votre email" />
+                <input type="submit" value="OK" id="bouton3" />
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h1>Travel Agency<span style="color: orange;">.</span></h1>
+            <div class="copyright">Copyright © . Tous droits réservés.</div>
+        </div>
+    </footer>
+</body>
+
+</html>

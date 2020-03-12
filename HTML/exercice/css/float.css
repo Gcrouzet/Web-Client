@@ -1,0 +1,26 @@
+header {
+    background-color: blue;
+    text-align: center;
+    height: 40px;
+}
+
+.rose {
+    background-color: pink;
+    float: left;
+    width: 80%;
+    height: 250px;
+}
+
+.rouge {
+    background-color: red;
+    float: left;
+    width: 20%;
+    height: 250px;
+}
+
+.footer {
+    clear: left;
+    background-color: green;
+    text-align: center;
+    height: 40px;
+}

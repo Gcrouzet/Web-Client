@@ -1,0 +1,13 @@
+img{
+    float: left;
+    width:200px;
+    height: 200px;
+}
+p{
+    clear: left;
+}
+.over{
+    height: 150px;
+    background-color: pink;
+    overflow: hidden;
+}

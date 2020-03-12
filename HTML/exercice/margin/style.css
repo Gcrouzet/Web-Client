@@ -1,0 +1,30 @@
+.div1{
+    background-color: mediumblue;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.div2{
+    background-color:mediumseagreen;
+    margin: 50px 250px;
+    width: 200px;
+    height: 200px;
+}
+.div3{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.div4{
+    background-color: rosybrown;
+    margin:50px 300px 25px ;
+    width: 200px;
+    height: 200px;
+}
+.div5{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    margin: 25px 0 46px 150px;
+}
