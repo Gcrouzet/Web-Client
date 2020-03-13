@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+
 }
 
 body {
@@ -20,12 +21,12 @@ p {
   color: #777;
 }
 
-/* Header */
-
 h1 {
   font-family: 'Crete round', serif;
   color: #444;
 }
+
+/* Header */
 
 header h1 {
   float: left;
@@ -42,6 +43,7 @@ ul li a {
 
 header {
   height: 100px;
+  width: auto;
 }
 
 li {
@@ -50,8 +52,10 @@ li {
 
 header nav {
   float: right;
-  margin-right: 300px;
-  margin-top: 50px;
+  position: relative;
+  right: 20%;
+  top: 50px;
+  
 }
 
 ul li {
@@ -80,41 +84,56 @@ h2 {
   height: 40px;
   width: 100px;
   margin: 80px 0 0 900px;
-  border: rgb(255, 136, 0) solid 2px;
+  border: none;
+  font-size: 1em;
 }
 
 /* Section 1 */
 
-table {
-  margin: 0 auto;
-  border-spacing: 80px;
+#section1 {
+  height: 300px;
+  width: 100%;
 }
 
-td {
+#step1, #step2, #step3 {
+  float: left;
+  position: relative;
+  left: 26%;
+  top: 15%;
+  margin: 20px;
+}
+
+img {
+  position: relative;
+  left: 75px;
+}
+
+#section1 h4 {
+  text-align: center;
+  margin: 25px;
+}
+
+#section1 p {
   text-align: center;
 }
 
-table h4 {
-  margin: 30px 0 20px;
-}
-
 /* Section 2 */
-article h4{
-padding: 10px;
-border-bottom: rgb(221,221,221) solid 1px;
-width: 110px;
-text-align: center;
-font-size: 19px;
-margin:30px;
+
+article h4 {
+  padding: 10px;
+  border-bottom: rgb(221, 221, 221) solid 1px;
+  width: 110px;
+  text-align: center;
+  font-size: 19px;
+  margin: 30px;
 }
 
 .overlay {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.90);
   height: 270px;
   width: 190px;
   border-radius: 10px 0 0 10px;
   text-align: center;
-  
 }
 
 .bouton2 {
@@ -127,25 +146,25 @@ margin:30px;
   margin: 15px;
 }
 
-
-#section2{
+#section2 {
   height: 350px;
   background-color: #efefef;
 }
 
-article{
+article {
   background-repeat: no-repeat;
   width: 460px;
   height: 270px;
   border-radius: 10px;
 }
 
-#article1{
+#article1 {
   position: relative;
   top: 40px;
   left: 450px;
 }
-#article2{
+
+#article2 {
   position: relative;
   bottom: 260px;
   left: 930px;
