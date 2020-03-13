@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-
 }
 
 body {
@@ -55,7 +54,6 @@ header nav {
   position: relative;
   right: 20%;
   top: 50px;
-  
 }
 
 ul li {
@@ -106,15 +104,21 @@ h2 {
 img {
   position: relative;
   left: 75px;
+  bottom: 20px;
 }
 
-#section1 h4 {
+.article1 h4 {
   text-align: center;
   margin: 25px;
+  position: relative;
+  bottom: 20px;
+  left: 35px;
 }
 
-#section1 p {
+.article1 p {
   text-align: center;
+  position: relative;
+  bottom: 30px;
 }
 
 /* Section 2 */
@@ -151,7 +155,7 @@ article h4 {
   background-color: #efefef;
 }
 
-article {
+.article2 {
   background-repeat: no-repeat;
   width: 460px;
   height: 270px;
@@ -175,9 +179,9 @@ article {
 h3 {
   text-align: center;
   border-bottom: rgb(2, 184, 221) solid 1px;
-  width: 300px;
+  width: 350px;
   font-size: 1.5em;
-  margin: 50px auto;
+  margin: 30px auto;
   padding-bottom: 15px;
 }
 
