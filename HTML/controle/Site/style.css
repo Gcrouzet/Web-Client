@@ -1,0 +1,208 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+section, footer {
+    border-radius: 2px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+p,h5{
+    width: 500px;
+}
+#background {
+    background-color: rgb(237, 237, 237);
+    height: 930px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Header*/
+
+header {
+    height: 130px;
+    background-color: rgb(79, 79, 79);
+}
+
+h3 {
+    color: white;
+    padding: 15px 0 0 10%;
+    font-size: 20px;
+}
+
+#crm {
+   z-index: 1;
+   position: absolute;
+   left: 1500px;
+}
+
+/*Section 1*/
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.section1 {
+    height: 250px;
+    width: 80%;
+    background-color: white;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.gauche {
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.ligne {
+    border-left: 2px solid rgb(204, 204, 204);
+    display: inline-block;
+    height: 180px;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+button {
+    background-color: rgb(238, 170, 0);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 600px;
+    margin-top: 5px;
+}
+
+.droite {
+    position: absolute;
+    left: 700px;
+    top: 60px;
+}
+
+.liste1 {
+    float: left;
+}
+
+.liste2 {
+    position: relative;
+    left: 220px;
+    width: 400px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.icone {
+    display: inline-block;
+    margin: 0 80px;
+}
+
+/*Section 2*/
+
+.section2 {
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#abc {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.exp {
+    position: relative;
+    top: 8px;
+    left: 50px;
+}
+
+hr {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.section2 hr {
+    top: 50px;
+}
+
+.section2 p, .section2 h5 {
+    position: relative;
+    left: 250px;
+}
+
+#acqui {
+    position: relative;
+    top: 40px;
+}
+
+/*Section 3*/
+
+.section3 {
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#dd {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+}
+
+.section3 p, .section3 h5 {
+    position: relative;
+    left: 250px;
+}
+
+.section3 hr {
+    position: relative;
+    top: 70px;
+}
+
+#bla {
+    position: relative;
+    top: 55px;
+}
+
+/*footer*/
+
+footer {
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+}
+footer p, footer h5 {
+    position: relative;
+    left: 50px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+#dev{
+    position: absolute;
+    left: 600px;
+    bottom: 100px;
+}
