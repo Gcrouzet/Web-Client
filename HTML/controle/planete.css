@@ -1,0 +1,18 @@
+table{
+    border: 2px solid gray;
+    border-collapse:collapse;
+}
+th{
+    border: 2px solid gray;
+    background-color: rgb(218, 209, 209);
+    padding: 0 20px;
+}
+td{
+    border: 2px solid gray;
+}
+td:not(.first){
+    text-align: right;
+}
+.carac{
+    padding:0 70px ;
+}

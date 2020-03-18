@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <div class="main">
+        <p>Sign in</p>
+        <div class="bordure"></div>
+        <form method="post" action="traitement.php">
+            <label for="nom">User Name: <br /></label>
+            <input class="champ" type="text" id="nom" name="nom" placeholder=" johndoe">
+        <br/>
+            <label for="password">Password: <br /></label>
+            <input class="champ" type="password" id="password" name="password" placeholder=" ********">
+            <p id="un">Group :</p>
+            <div class="radio">
+                <input class="check" type="radio" name="group" value="ABC Dev" id="ABC Dev" />
+                <label  for="ABC Dev">ABC Dev</label>
+                <br />
+                <input class="check" type="radio" name="group" value="DWWM" id="DWWM" />
+                <label for="DWWM">DWWM</label>
+                <br />
+                <input class="check" checked="checked" type="radio" name="group" value="CDA" id="CDA" />
+                <label for="CDA">CDA</label>
+            </div>
+            <input class="bouton" type="submit" value="SIGN IN" />
+            <br/>
+            <a href="#">Forgot Password?</a>
+        <div class="bordure"></div>
+        <p id="deux">New User</p>
+        <button type="button">SIGN UP</button>
+    </div>
+</form>
+</body>
+
+</html>

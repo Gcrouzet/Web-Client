@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Planete>
+    <Mercure>
+        <Diamètre unité_mesure="km">4878</Diamètre>
+        <Circonférence unité_mesure="km">15324.69</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">57.8</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">91.8</DistanceTerre>
+        <Satellites>0</Satellites>
+        <TempératureMoyenne unité_mesure="°C">167</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">0.33</Masse>
+        <PériodeRévolution unité_mesure="an">0.24</PériodeRévolution>
+        <RotationAxe>58j 15h 38min</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">47.78</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">3.78</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">5.42</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">0.6077487</Volume>
+    </Mercure>
+    <Venus>
+        <Diamètre unité_mesure="km">12104</Diamètre>
+        <Circonférence unité_mesure="km">38019.55</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">108.2</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">41.4</DistanceTerre>
+        <Satellites>0</Satellites>
+        <TempératureMoyenne unité_mesure="°C">465</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">4.87</Masse>
+        <PériodeRévolution unité_mesure="an">0.615</PériodeRévolution>
+        <RotationAxe>243j</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">35.02</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">8.6</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">5.24</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">9.2804721</Volume>
+    </Venus>
+    <Terre>
+        <Diamètre unité_mesure="km">12756</Diamètre>
+        <Circonférence unité_mesure="km">40024</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">149.6</DistanceSoleil>
+        <Satellites>1</Satellites>
+        <TempératureMoyenne unité_mesure="°C">15</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">5.9736</Masse>
+        <PériodeRévolution unité_mesure="an">1</PériodeRévolution>
+        <RotationAxe>23h 56min 4s</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">29.788</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">9.81</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">5.45</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">10.8321</Volume>
+    </Terre>
+    <Mars>
+        <Diamètre unité_mesure="km">6794</Diamètre>
+        <Circonférence unité_mesure="km">21318.84</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">227.9</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">77.9</DistanceTerre>
+        <Satellites>2</Satellites>
+        <TempératureMoyenne unité_mesure="°C">-65</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">0.642</Masse>
+        <PériodeRévolution unité_mesure="an">1.88</PériodeRévolution>
+        <RotationAxe>24h 37min 23sec</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">24.11</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">3.72</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">3.93</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">1.6362143</Volume>
+    </Mars>
+    <Jupiter>
+        <Diamètre unité_mesure="km">142984</Diamètre>
+        <Circonférence unité_mesure="km">449197.48</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">778.6</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">628.7</DistanceTerre>
+        <Satellites>63</Satellites>
+        <TempératureMoyenne unité_mesure="°C">-54</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">1899</Masse>
+        <PériodeRévolution unité_mesure="an">11.86</PériodeRévolution>
+        <RotationAxe>9h 50min</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">13.07</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">24.892</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">1.32</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">15305.97</Volume>
+    </Jupiter>
+    <Saturne>
+        <Diamètre unité_mesure="km">120536</Diamètre>
+        <Circonférence unité_mesure="km">378675.01</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">1433.50</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">1280.40</DistanceTerre>
+        <Satellites>47</Satellites>
+        <TempératureMoyenne unité_mesure="°C">-150</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">568</Masse>
+        <PériodeRévolution unité_mesure="an">29.46</PériodeRévolution>
+        <RotationAxe>11.5h</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">9.66</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">10.584</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">0.68</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">9169.57</Volume>
+    </Saturne>
+    <Uranus>
+        <Diamètre unité_mesure="km">51118</Diamètre>
+        <Circonférence unité_mesure="km">160591.93</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">2872.50</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">2725.40</DistanceTerre>
+        <Satellites>27</Satellites>
+        <TempératureMoyenne unité_mesure="°C">-210</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">86.8</Masse>
+        <PériodeRévolution unité_mesure="an">84</PériodeRévolution>
+        <RotationAxe>17h 24min</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">6.81</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">8.624</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">1.27</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">699.39123</Volume>
+    </Uranus>    
+    <Neptune>
+        <Diamètre unité_mesure="km">49528</Diamètre>
+        <Circonférence unité_mesure="km">155596.80</Circonférence>
+        <DistanceSoleil unité_mesure="10^6km">4495.10</DistanceSoleil>
+        <DistanceTerre  unité_mesure="10^6km">4346.90</DistanceTerre>
+        <Satellites>13</Satellites>
+        <TempératureMoyenne unité_mesure="°C">-220</TempératureMoyenne>
+        <Masse unité_mesure="10^24kg">102</Masse>
+        <PériodeRévolution unité_mesure="an">164.79</PériodeRévolution>
+        <RotationAxe>16h 3min</RotationAxe>
+        <VitesseAutourSoleil unité_mesure="km/s">5.43</VitesseAutourSoleil>
+        <AttractionGravitationnelle unité_mesure="N/kg">11.27</AttractionGravitationnelle>
+        <MasseVolumique unité_mesure="kg/dm^3">1.63</MasseVolumique>
+        <Volume unité_mesure="10^11km^3">636.1374964</Volume>
+    </Neptune>
+</Planete>
+
