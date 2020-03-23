@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <!-- <div><p id="myP">Un peu de texte <a>et un lien</a></p></div>
+<script>
+var newLink = document.createElement('a');
+newLink.id = 'sdz_link';
+newLink.href = 'http://blog.crdp-versailles.fr/rimbaud/';
+newLink.title = 'Découvrez le blog de la Classe Actu !';
+newLink.setAttribute('tabindex', '10');
+document.getElementById('myP').appendChild(newLink); // le nouvel élément est le dernier enfant dans le paragraphe avec id 'myP'
+var newLinkText = document.createTextNode("Le Tonnerre de Rimbaud");
+newLink.appendChild(newLinkText); // ces deux lignes pour ajouter le texte
+</script>-->
+
+<div><p id="myP">Un peu de texte <a>et un lien</a></p></div>
+<script>
+var link = document.getElementsByTagName('a')[0];
+var newLabel= document.createTextNode('et un hyperlien');
+link.replaceChild(newLabel, link.firstChild);
+var link = document.getElementsByTagName('a')[0];
+link.parentNode.removeChild(link);
+</script>
+<div><p id="myP">Un peu de texte <a>et un lien</a></p></div>
+<script>
+var paragraph = document.getElementsByTagName('p')[0];
+alert(paragraph.hasChildNodes()); // Affiche true
+</script>
+
+<p id="myP">Un peu de texte <a>et un lien</a></p>
+<script>
+var paragraph = document.getElementsByTagName('p')[0];
+var emphasis = document.createElement('em'),
+emphasisText = document.createTextNode(' en emphase légère ');
+emphasis.appendChild(emphasisText);
+paragraph.insertBefore(emphasis, paragraph.lastChild);
+</script>
+
+
+
+</body>
+
+</html>

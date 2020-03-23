@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--<blockquote>
+        <p id="myP">Ceci est un paragraphe !</p>
+    </blockquote>
+    <script>
+        var paragraph = document.getElementById('myP');
+        var blockquote = paragraph.parentNode;
+        var paragraph = document.getElementById('myP');
+        alert(paragraph.nodeType + '\n\n' +
+            paragraph.nodeName.toLowerCase());
+    </script>-->
+
+
+    <!--<div>
+    <p id="myP">Un peu de texte, <a>un lien</a> et <strong>une portion en
+    emphase</strong></p>
+    </div>
+    <script>
+    var paragraph = document.getElementById('myP');
+    var first = paragraph.firstChild;
+    var last = paragraph.lastChild;
+    alert(first.nodeName.toLowerCase());
+    alert(last.nodeName.toLowerCase());
+    </script>
+    var paragraph = document.getElementById('myP');
+    var first = paragraph.firstChild;
+    var last = paragraph.lastChild;
+    alert(first.nodeValue);
+    alert(last.firstChild.data);-->
+
+    <!-- <div>
+        <p id="myP">Un peu de texte, <a>un lien</a> et <strong>une portion en
+        emphase</strong></p>
+        </div>
+        <script>
+        var paragraph = document.getElementById('myP');
+        var first = paragraph.firstChild;
+        var next = first.nextSibling;
+        alert(next.firstChild.data); // Affiche « un lien »
+        </script> -->
+
+    <div>
+        <p id="myP">Un peu de texte <a>et un lien</a></p>
+    </div>
+    <script>
+        var paragraph = document.getElementById('myP');
+        var child = paragraph.lastChild; // On prend le dernier enfant
+        while (child) {
+            if (child.nodeType === 1) { // C'est un élément HTML
+                alert(child.firstChild.data);
+            } else { // C'est certainement un noeud textuel
+                alert(child.data);
+            }
+            child = child.previousSibling; // À chaque tour de boucle, on prend l'enfant précédent
+        }
+    </script>
+
+
+</body>
+
+</html>
