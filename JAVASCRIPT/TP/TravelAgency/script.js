@@ -33,7 +33,10 @@ add_red_star(label[1]);
 function verifMail() {
     if (/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(inputMail.value)) {
         alert("Adresse e-mail valide !");
+        document.querySelector('h3').textContent = 'Déjà contacté';
+        document.querySelector('h3').style.background = 'red';
     } else {
         alert("Adresse e-mail invalide !");
     }
 }
+
